@@ -1,7 +1,0 @@
-DOCTYPE Declaration is a special tag used at
-the top of a HTML file to let the browser know 
-which version of HTML is being used in the file 
-most famous one is <!DOCTYPE html> which represents
-the latest version of HTML which is HTML5.
-Failing to provide this tag could result in 
-rendering incorect structure of the webpage.
