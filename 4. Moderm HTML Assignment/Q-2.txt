@@ -1,0 +1,6 @@
+HTML entities are special codes or sequences of characters used to represent reserved characters, characters with special meaning, or characters that might not be easily displayed in HTML documents. 5 most commonly used html entities are:
+1. &lt; - Less-than sign <
+2. &gt; - Greater-than sign >
+3. &amp; - Ampersand &
+4. &quot; - Double quotation mark "
+5. &apos; - Single quotation mark or apostrophe ' 

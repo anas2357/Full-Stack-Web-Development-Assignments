@@ -1,0 +1,16 @@
+Features of HTML5:-
+
+1. Semantic Elements:
+        New semantic elements like <header>, <nav>, <section>, <article>, <footer>, etc., provide clearer structure and meaning to web page. 
+
+2. Audio and Video Support:
+        Native <audio> and <video> elements allow embedding audio and video content without requiring third-party plugins.
+
+3. Canvas Element:
+        The <canvas> element provides a drawing surface for rendering graphics and animations using JavaScript.
+
+4. Local Storage:
+        The localStorage and sessionStorage APIs enable client-side storage of data, allowing web applications to store information locally on the user's device.
+
+5. New Input Types:
+        New input types, such as date, email, number, and color, provide improved user interfaces for form inputs, enhancing user experience.

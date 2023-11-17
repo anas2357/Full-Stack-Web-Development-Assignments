@@ -1,0 +1,10 @@
+Ways which help us in increasing accessibility of HTML:
+
+1. Use of Semantic HTML:
+        Utilize semantic elements like <header>, <nav>, <main>, <section>, <article>, and <footer> to convey the structure and meaning of content.
+
+2. Providing Descriptive Text for Images:
+        Include descriptive and meaningful alternative text (alt attribute) for images to ensure that users with visual impairments understand the content.
+
+3. Using Meaningful Headings:
+        Structure your content with hierarchical headings (<h1>, <h2>, etc.) to create a clear and logical outline. Headings should reflect the document's structure.
