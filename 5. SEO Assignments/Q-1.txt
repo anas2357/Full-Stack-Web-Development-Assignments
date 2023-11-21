@@ -1,0 +1,5 @@
+SEO is short form notation for 'Search Engine Optimization'. Which refers to the practices we employe to achieve higher grades by search engines, ultimately resulting in higher ranking during web searches. Here are few practices to make web sites more search engine optimized:-
+
+1. Use Semantic Tags.
+2. Use Meta Tags.
+3. Make them more Accessible.

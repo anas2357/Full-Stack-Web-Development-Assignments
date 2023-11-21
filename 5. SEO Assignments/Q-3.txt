@@ -1,0 +1,5 @@
+Meta Tags are essentially data about the data, providing information about the content on the website. Here are main benefits of using Meta Tags:-
+
+1. Improves SEO.
+2. Improves User Experience.
+3. Facilitates Social Media Sharing.
