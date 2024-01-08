@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Element Hirarchy</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #MiddleLayer {
+            background-color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="OuterLayer">
+        <h1>Inner Layer</h1>
+        <!-- h1 will be of green color because only external CSS is applied -->
+        <div id="MiddleLayer">
+            <h2>Middle Layer</h2>
+            <!-- h2 will be Dark Blue in color because external and internal properties are used but only internal CSS will be applied because of higher hirarchy -->
+            <div style="background-color: aqua;" id="InnerLayer">
+                <h3>InnerLayer</h3>
+                <!-- h3 will have aqua color of inline CSS because it has highest hirarchy between external, internal and inline CSS that is applied on this element -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
