@@ -1,0 +1,3 @@
+In CSS, relative positioning means an element is moved from its usual position, but it stays in the flow of the webpage. It's like saying, "Move a bit from where you normally would be, but keep your space so other elements around you don't get too bothered."
+
+On the other hand, absolute positioning is like telling an element, "Go to a specific spot, but forget about where you were supposed to be. You won't take up any space, and things around you might adjust to fill the gap you left."

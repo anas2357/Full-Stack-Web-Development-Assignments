@@ -1,0 +1,29 @@
+<!-- In CSS, the z-index property controls the stacking order of elements along the z-axis, determining which elements appear in front or behind others. Elements with a higher z-index value appear in front of those with lower values. It's like arranging sheets of paper on a desk; the higher the z-index, the closer the element is to the viewer, making it visible on top of elements with lower z-index values. As we can see in this example when element A has higher Z-index it appears on top of B element and vice-versa when A's Z-Index is higher -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            border: 4px solid silver;
+        }
+        #A {
+            background-color: aqua;
+        }
+        #B {
+            top: 100px;
+            left: 100px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div id="A">A</div>
+    <div id="B">B</div>
+</body>
+</html>
