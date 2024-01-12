@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        button {
+            background-color: white;
+        }
+        #containor {
+            width: 70vw;
+            height: 95vh;
+            display: flex;
+        }
+        header {
+            height: 15vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #image {
+            flex-grow: 1;
+            /* border: 1px solid; */
+        }
+        #header-top {
+            display: flex;
+            justify-content: end;
+        }
+        #header-bottom {
+            display: flex;
+            justify-content: end;
+        }
+        header p, header button {
+            margin: 5px;
+        }
+        #left {
+            flex-grow: 1;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        } 
+        #content {            
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .left-content {
+            flex-grow: 1;
+            padding: 30px;
+        }
+        #heading {
+            display: flex;
+            flex-direction: column;
+        }
+        #heading-IR {
+            flex-grow: 1;
+        }
+        #sub-heading {
+            flex-grow: 1;
+            display: flex;
+        }
+        #stations {
+            display: flex;
+        }
+        #station-left {
+            flex-grow: 1;
+        }
+        #station-right {
+            flex-grow: 0.5;
+        }
+        #info {
+            display: flex;
+        }
+        #info-1, #info-2, #info-3 {
+            flex-grow: 1;
+        }
+        #button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #button button {
+            background-color: rgb(62, 249, 62);
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            border: 0px;
+        }
+        #margin {
+            flex-basis: 30px;
+        }
+        #menu {
+            display: flex;
+            gap: 10px;
+        }
+        #menu button {
+            flex-grow: 1;
+            font-size: large;
+            padding: 4px;
+            border-radius: 5px;
+        }
+        #safety {
+            color: rgb(42, 214, 42);
+        }
+        #security {
+            color: orange;
+        }
+        #punctuality {
+            color: rgb(24, 80, 192);
+        }
+        header button {
+            padding: 10px;
+            border: 0px;
+            border-radius: 5px;
+        }
+        #orange {
+            background-color: orange;
+        }
+        img {
+            height: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="containor">
+        <div id="left">
+            <header>
+                <div id="header-top">
+                    <button>Ask Disha</button>
+                    <button>Contact us</button>
+                    <button>Alerts</button>
+                </div>
+                <div id="header-bottom">
+                    <button id="orange">Ask Disha</button>
+                    <button>Register</button>
+                    <button>Agent Login</button>
+                </div>
+            </header>
+            <div id="content">
+                <div id="heading" class="left-content">
+                    <div id="heading-IR">
+                        <h1>Indian Railways</h1>
+                    </div>
+                    <div id="sub-heading">
+                        <h2 id="safety">Safety</h2>
+                        <h2 id="security">Security</h2>
+                        <h2 id="punctuality">Punctuality</h2>
+                    </div>
+                </div>
+                <div id="menu" class="left-content">
+                    <button style="background-color: rgb(24, 80, 192) ;color: white;">Book Ticket</button>
+                    <button>PNR Status</button>
+                    <button>Charts/Vacancy</button>
+                </div>
+                <div id="stations" class="left-content">
+                    <div id="station-left">
+                        <div><p>From</p></div>
+                        <div><h3>Banglore</h3></div>
+                        <div><p>KSR-Banglore</p></div>
+                    </div>
+                    <div id="station-right">
+                        <div><p>To</p></div>
+                        <div><h3>Kasaragod</h3></div>
+                        <div><p>KSD-Kasaragod</p></div>
+                    </div>
+                </div>
+                <div id="info" class="left-content">
+                    <div id="info-1">
+                        <div ><p>Date</p></div>
+                        <div><h3>01 Aug 23</h3></div>
+                        <div><p>Tuesday</p></div>
+                    </div>
+                    <div id="info-2">
+                        <div><p>Class</p></div>
+                        <div><h3>3A</h3></div>
+                        <div><p>AC # Tier</p></div>
+                    </div>
+                    <div id="info-3">
+                        <div><p>Seat Type</p></div>
+                        <div><h3>TATKAL</h3></div>
+                        <div><p>AC 3 Tier</p></div>
+                    </div>
+                </div>
+                <div id="button" class="left-content">
+                    <button>Search Train</button>
+                </div>
+                <div id="margin"></div>
+            </div>
+        </div>
+        <div id="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmaMM4YNHuRZm9N7oY8dvdq7u-_N5iMR-wVw&usqp=CAU" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmaMM4YNHuRZm9N7oY8dvdq7u-_N5iMR-wVw&usqp=CAU" alt="">
+        </div>
+    </div>
+</body>
+</html>
