@@ -1,0 +1,33 @@
+<!-- Both justify-items and justify-self are properties in CSS Grid that deal with the horizontal alignment of grid items, but they operate at different levels.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>justify-items Example</title>
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            /*justify-items: center;*/ /* Horizontally center all items */
+            gap: 10px;
+        }
+
+        .item {
+            background-color: lightblue;
+            border: 1px solid blue;
+            padding: 10px;
+        }
+        #item1 {            
+            justify-self: center; /* Horizontally center this specific item */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="item" id="item1">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+</body>
+</html>

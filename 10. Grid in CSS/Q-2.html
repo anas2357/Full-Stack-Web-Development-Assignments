@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q-2</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-areas: 
+                'a a B'
+                'C D B'
+            ;
+            height: 100vh;
+        }
+        div{
+            margin: 15px;
+            border-radius: 10px;
+            background-color: #ffe4c4;
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            padding: 30px;
+        }
+        #a {
+            grid-area: a;
+        }
+        #b {
+            grid-area: B;
+        }
+        #c {
+            grid-area: C;
+        }
+        #d {    
+            grid-area: D;
+        }
+    </style>
+</head>
+<body>
+    <div id="a">A</div>
+    <div id="b">B</div>
+    <div id="c">C</div>
+    <div id="d">D</div>
+</body>
+</html>
