@@ -1,0 +1,30 @@
+<!-- "var()" function in CSS is the way to use same variable for multiple similar purpose and allows developer to introduce features like theme changes easily and efficiently -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q-1</title>
+  <style>
+    :root {
+      --first-color: #00b7ff;
+      --second-color: #6c757d;
+    }
+    button {
+      border: none;
+      color: white;
+      padding: 5px 10px;
+    }
+    #primaryBtn {
+      background-color: var(--first-color);
+    }
+    #secondaryBtn {
+      background-color: var(--second-color);
+    }
+  </style>
+</head>
+<body>
+  <button id="primaryBtn">Primary Button</button>
+  <button id="secondaryBtn">Secondary Button</button>
+</body>
+</html>
