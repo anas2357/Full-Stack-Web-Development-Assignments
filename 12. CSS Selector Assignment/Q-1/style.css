@@ -1,0 +1,48 @@
+body a{
+  color: red;
+}
+
+nav>h2 {
+  background-color: bisque;
+  color: #0193fa;
+}
+
+nav p:first-of-type{
+  color: red;
+}
+
+a[href] {
+  text-decoration: none;
+  color: red;
+}
+
+a[class="active"] {
+  color: #0193fa;
+  text-decoration: underline;
+}
+
+a[target="_self"] {
+  background-color: rgba(255, 102, 0, 0.416);
+}
+
+p:last-child::after {
+  content: "...";
+}
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: "\2022";
+  color: lightgreen;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+nav p:nth-of-type(2)::first-letter {
+  color: red;
+  font-size: 30px;
+}
